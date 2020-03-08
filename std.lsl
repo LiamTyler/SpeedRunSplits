@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>146</X>
-  <Y>187</Y>
+  <X>1701</X>
+  <Y>535</Y>
   <VerticalWidth>286</VerticalWidth>
-  <VerticalHeight>653</VerticalHeight>
+  <VerticalHeight>566</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
   <Settings>
@@ -110,29 +110,19 @@
           </Settings>
           <Settings>
             <Version>1.5</Version>
+            <Name>Segment Time</Name>
+            <Type>SegmentTime</Type>
+            <Comparison>Current Comparison</Comparison>
+            <TimingMethod>Current Timing Method</TimingMethod>
+          </Settings>
+          <Settings>
+            <Version>1.5</Version>
             <Name>Time</Name>
             <Type>SplitTime</Type>
             <Comparison>Current Comparison</Comparison>
             <TimingMethod>Current Timing Method</TimingMethod>
           </Settings>
         </Columns>
-      </Settings>
-    </Component>
-    <Component>
-      <Path>LiveSplit.PreviousSegment.dll</Path>
-      <Settings>
-        <Version>1.6</Version>
-        <TextColor>FFFFFFFF</TextColor>
-        <OverrideTextColor>False</OverrideTextColor>
-        <BackgroundColor>FF1C1C1C</BackgroundColor>
-        <BackgroundColor2>FF0D0D0D</BackgroundColor2>
-        <BackgroundGradient>Vertical</BackgroundGradient>
-        <DeltaAccuracy>Tenths</DeltaAccuracy>
-        <DropDecimals>True</DropDecimals>
-        <Comparison>Current Comparison</Comparison>
-        <Display2Rows>False</Display2Rows>
-        <ShowPossibleTimeSave>False</ShowPossibleTimeSave>
-        <TimeSaveAccuracy>Tenths</TimeSaveAccuracy>
       </Settings>
     </Component>
     <Component>
@@ -171,34 +161,45 @@
       </Settings>
     </Component>
     <Component>
-      <Path>LiveSplit.Graph.dll</Path>
+      <Path>LiveSplit.PreviousSegment.dll</Path>
+      <Settings>
+        <Version>1.6</Version>
+        <TextColor>FFFFE100</TextColor>
+        <OverrideTextColor>True</OverrideTextColor>
+        <BackgroundColor>FF1C1C1C</BackgroundColor>
+        <BackgroundColor2>FF0D0D0D</BackgroundColor2>
+        <BackgroundGradient>Vertical</BackgroundGradient>
+        <DeltaAccuracy>Tenths</DeltaAccuracy>
+        <DropDecimals>True</DropDecimals>
+        <Comparison>Current Comparison</Comparison>
+        <Display2Rows>False</Display2Rows>
+        <ShowPossibleTimeSave>False</ShowPossibleTimeSave>
+        <TimeSaveAccuracy>Tenths</TimeSaveAccuracy>
+      </Settings>
+    </Component>
+    <Component>
+      <Path>LiveSplit.PossibleTimeSave.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <Height>120</Height>
-        <Width>180</Width>
-        <BehindGraphColor>FF732828</BehindGraphColor>
-        <AheadGraphColor>FF287334</AheadGraphColor>
-        <GridlinesColor>50000000</GridlinesColor>
-        <PartialFillColorBehind>19FFFFFF</PartialFillColorBehind>
-        <CompleteFillColorBehind>32FFFFFF</CompleteFillColorBehind>
-        <PartialFillColorAhead>19FFFFFF</PartialFillColorAhead>
-        <CompleteFillColorAhead>32FFFFFF</CompleteFillColorAhead>
-        <GraphColor>FFFFFFFF</GraphColor>
-        <ShadowsColor>38000000</ShadowsColor>
-        <GraphLinesColor>FFFFFFFF</GraphLinesColor>
-        <LiveGraph>True</LiveGraph>
-        <FlipGraph>False</FlipGraph>
+        <TextColor>FF35C0FF</TextColor>
+        <OverrideTextColor>True</OverrideTextColor>
+        <TimeColor>FFFFFFFF</TimeColor>
+        <OverrideTimeColor>False</OverrideTimeColor>
+        <Accuracy>Hundredths</Accuracy>
+        <BackgroundColor>00000000</BackgroundColor>
+        <BackgroundColor2>00FFFFFF</BackgroundColor2>
+        <BackgroundGradient>Plain</BackgroundGradient>
         <Comparison>Current Comparison</Comparison>
-        <ShowBestSegments>False</ShowBestSegments>
-        <GraphGoldColor>FFD8AF1F</GraphGoldColor>
+        <Display2Rows>False</Display2Rows>
+        <TotalTimeSave>False</TotalTimeSave>
       </Settings>
     </Component>
     <Component>
       <Path>LiveSplit.SumOfBest.dll</Path>
       <Settings>
         <Version>1.4</Version>
-        <TextColor>FFFFFFFF</TextColor>
-        <OverrideTextColor>False</OverrideTextColor>
+        <TextColor>FFFF9E00</TextColor>
+        <OverrideTextColor>True</OverrideTextColor>
         <TimeColor>FFFFFFFF</TimeColor>
         <OverrideTimeColor>False</OverrideTimeColor>
         <Accuracy>Seconds</Accuracy>
