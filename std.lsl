@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1701</X>
-  <Y>535</Y>
-  <VerticalWidth>286</VerticalWidth>
+  <X>1476</X>
+  <Y>276</Y>
+  <VerticalWidth>309</VerticalWidth>
   <VerticalHeight>566</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
@@ -27,7 +27,7 @@
     <TimesFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAQEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=]]></TimesFont>
     <TimerFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAA5DZW50dXJ5IEdvdGhpYwAAL0IF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></TimerFont>
     <TextFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAQEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=]]></TextFont>
-    <AlwaysOnTop>True</AlwaysOnTop>
+    <AlwaysOnTop>False</AlwaysOnTop>
     <ShowBestSegments>True</ShowBestSegments>
     <AntiAliasing>True</AntiAliasing>
     <DropShadows>True</DropShadows>
@@ -85,7 +85,7 @@
         <OverrideTimesColor>False</OverrideTimesColor>
         <ShowBlankSplits>True</ShowBlankSplits>
         <LockLastSplit>True</LockLastSplit>
-        <IconSize>24</IconSize>
+        <IconSize>18</IconSize>
         <IconShadows>True</IconShadows>
         <SplitHeight>3.6</SplitHeight>
         <CurrentSplitGradient>Vertical</CurrentSplitGradient>
@@ -93,7 +93,7 @@
         <BackgroundColor2>01FFFFFF</BackgroundColor2>
         <BackgroundGradient>Alternating</BackgroundGradient>
         <SeparatorLastSplit>True</SeparatorLastSplit>
-        <DeltasAccuracy>Tenths</DeltasAccuracy>
+        <DeltasAccuracy>Seconds</DeltasAccuracy>
         <DropDecimals>True</DropDecimals>
         <OverrideDeltasColor>False</OverrideDeltasColor>
         <DeltasColor>FFFFFFFF</DeltasColor>
@@ -152,12 +152,12 @@
         <BackgroundColor>00FFFFFF</BackgroundColor>
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
-        <Comparison>Current Comparison</Comparison>
+        <Comparison>Personal Best</Comparison>
         <Comparison2>Best Segments</Comparison2>
         <HideComparison>False</HideComparison>
         <TimingMethod>Current Timing Method</TimingMethod>
         <DecimalsSize>35</DecimalsSize>
-        <SegmentTimerDecimalsSize>35</SegmentTimerDecimalsSize>
+        <SegmentTimerDecimalsSize>29</SegmentTimerDecimalsSize>
       </Settings>
     </Component>
     <Component>
